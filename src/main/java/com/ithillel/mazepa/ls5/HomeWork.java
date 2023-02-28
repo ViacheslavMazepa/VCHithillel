@@ -1,15 +1,15 @@
 package com.ithillel.mazepa.ls5;
 
 public class HomeWork {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
 
-        Dynasty Lee = new Dynasty(860, 13, 24, 46);
-        Dynasty Min = new Dynasty((int) (860 * 1.5), 9, 35, 12);
+        Dynasty Lee = new Dynasty (860, 13, 24, 46);
+        Dynasty Min = new Dynasty ((int) (860 * 1.5), 9, 35, 12);
 
         System.out.println(Lee.totalAttack());
         System.out.println(Min.totalAttack());
 
-        if (Lee.totalAttack() > Min.totalAttack()){
+        if (Lee.totalAttack() > Min.totalAttack()) {
             System.out.println("Lee Dynasty had a clear advantage");
         } else if (Lee.totalAttack() < Min.totalAttack()){
             System.out.println("Min Dynasty had a clear advantage");
@@ -22,7 +22,7 @@ public class HomeWork {
         private int bowmanDamage;
         private int riderDamage;
 
-        Dynasty(int numberOfSoldier, int warriorDamage, int bowmanDamage, int riderDamage) {
+        Dynasty (int numberOfSoldier, int warriorDamage, int bowmanDamage, int riderDamage) {
             this.numberOfSoldier = numberOfSoldier;
             this.warriorDamage = warriorDamage;
             this.bowmanDamage = bowmanDamage;
@@ -32,5 +32,4 @@ public class HomeWork {
             return (warriorDamage * numberOfSoldier) + (bowmanDamage * numberOfSoldier) + (riderDamage * numberOfSoldier);
         }
     }
-
 }

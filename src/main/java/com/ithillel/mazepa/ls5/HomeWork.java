@@ -17,10 +17,10 @@ public class HomeWork {
     }
 
     static class Dynasty {
-        private int numberOfSoldier;
-        private int warriorDamage;
-        private int bowmanDamage;
-        private int riderDamage;
+        int numberOfSoldier;
+        int warriorDamage;
+        int bowmanDamage;
+        int riderDamage;
 
         Dynasty (int numberOfSoldier, int warriorDamage, int bowmanDamage, int riderDamage) {
             this.numberOfSoldier = numberOfSoldier;
@@ -28,6 +28,7 @@ public class HomeWork {
             this.bowmanDamage = bowmanDamage;
             this.riderDamage = riderDamage;
         }
+
         int totalAttack () {
             return (warriorDamage * numberOfSoldier) + (bowmanDamage * numberOfSoldier) + (riderDamage * numberOfSoldier);
         }

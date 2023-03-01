@@ -30,7 +30,7 @@ public class HomeWork {
         }
 
         int totalAttack () {
-            return (warriorDamage * numberOfSoldier) + (bowmanDamage * numberOfSoldier) + (riderDamage * numberOfSoldier);
+            return warriorDamage * numberOfSoldier + bowmanDamage * numberOfSoldier + riderDamage * numberOfSoldier;
         }
     }
 }

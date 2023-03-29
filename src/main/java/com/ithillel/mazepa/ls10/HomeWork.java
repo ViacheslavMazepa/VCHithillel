@@ -3,7 +3,6 @@ package com.ithillel.mazepa.ls10;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Random;
 
@@ -18,7 +17,6 @@ public class HomeWork {
     static ArrayList<Integer> fillRandomValuesToCollection(ArrayList<Integer> arrayList, int min, int max, int size){
         int diff = max - min;
         for (int i = 0; i < size; i++){
-
             arrayList.add(i, new Random().nextInt(diff + 1) + min);
         }
         out.println("Fill in to collection: " + arrayList);

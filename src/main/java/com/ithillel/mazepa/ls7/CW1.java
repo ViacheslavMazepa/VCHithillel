@@ -3,7 +3,10 @@ package com.ithillel.mazepa.ls7;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class ClasssWork {
+public abstract class CW1 {
+
+    public abstract void coll ();
+
     public static void main(String[] args) {
 
 //     int [] array = new int [10];

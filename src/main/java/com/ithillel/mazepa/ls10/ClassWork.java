@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class ClassWork {
 
-    static ArrayList <Integer> firstSlide({
+    static ArrayList <Integer> firstSlide(){
         return new ArrayList<>();
     }
     static ArrayList <Integer> secondSlide(ArrayList<Integer> arrayList){

@@ -2,7 +2,7 @@ package com.ithillel.mazepa.ls7;
 
 import java.util.Arrays;
 
-public class HomeWork {
+public class HomeWork extends CW1 {
      static void randomAgeOfrArrays (int [] array, int maxAge, int minAge){
         for (int i = 0; i < array.length; i++) {
             array[i] = minAge + (int) ((Math.random() * (maxAge - minAge + 1)));
@@ -14,6 +14,11 @@ public class HomeWork {
             age += i;
         }
         return (double) age / numberOfMembers;
+    }
+
+    @Override
+    public void coll() {
+        
     }
 
     public static void main(String[] args) {

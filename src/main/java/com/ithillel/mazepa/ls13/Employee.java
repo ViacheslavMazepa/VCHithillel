@@ -4,7 +4,7 @@ class Employee {
     protected String name;
     public int age = 0;
 
-    Employee(String name, int age) {
+    protected Employee(String name, int age) {
         this.name = name;
         this.age = age;
     }

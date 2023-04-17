@@ -9,7 +9,8 @@ import java.util.Random;
 import static java.lang.System.currentTimeMillis;
 import static java.lang.System.out;
 
-public class HomeWork {
+public class
+HomeWork {
     static ArrayList<Integer> createCollection() {
         out.println("Collection is created");
         return new ArrayList<>();

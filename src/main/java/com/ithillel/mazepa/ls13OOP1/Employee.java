@@ -1,4 +1,4 @@
-package com.ithillel.mazepa.ls13;
+package com.ithillel.mazepa.ls13OOP1;
 
 class Employee {
     protected String name;

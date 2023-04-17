@@ -1,4 +1,4 @@
-package com.ithillel.mazepa.ls13;
+package com.ithillel.mazepa.ls13OOP1;
 
 public class ClassWorkT {
     ClassWorkT(boolean isBrain){

@@ -1,4 +1,4 @@
-package com.ithillel.mazepa.ls14;
+package com.ithillel.mazepa.ls14OOP2;
 
 abstract class Employee {
     private final String name;

@@ -1,4 +1,4 @@
-package com.ithillel.mazepa.ls13;
+package com.ithillel.mazepa.ls13OOP1;
 
 public class TechTeam extends Employee {
     String title;

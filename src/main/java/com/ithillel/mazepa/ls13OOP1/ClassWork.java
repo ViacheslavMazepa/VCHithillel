@@ -1,4 +1,4 @@
-package com.ithillel.mazepa.ls13;
+package com.ithillel.mazepa.ls13OOP1;
 
 public class ClassWork {
     //пм + дев + куа чи занйшов помилку в РЦ

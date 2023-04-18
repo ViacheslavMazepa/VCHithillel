@@ -22,9 +22,9 @@ class Game {
             if (age < 18) {
                 throw new AssertionError();
             } else startGame();
-        } catch (InputMismatchException e){
+        } catch (InputMismatchException e) {
             System.out.print("Wrong input =P");
-        } catch (AssertionError e){
+        } catch (AssertionError e) {
             System.out.print("You are too young ¯\\_(ツ)_/¯");
         }
     }

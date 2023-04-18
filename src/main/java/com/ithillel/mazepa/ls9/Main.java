@@ -1,11 +1,11 @@
 package com.ithillel.mazepa.ls9;
 
 public class Main {
-    public String firstTwo(String str, int n) {
-        if(str.length() > 2)
-            return str.substring(0,2);
-        return str.substring(0,n +1 ) + str.substring(n);
-    }
+//    public String firstTwo(String str, int n) {
+//        if(str.length() > 2)
+//            return str.substring(0,2);
+//        return str.substring(0,n +1 ) + str.substring(n);
+//    }
     public int sum3(int[] nums) {
         int sum = 0;
         for (int i = 0; i < nums.length; i ++) {

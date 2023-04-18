@@ -41,7 +41,7 @@ class Game {
             }
 
             try {
-                //scanner is local object to update the value each iteration
+                //scanner is created in a loop to update the value each iteration
                 Scanner scanner = new Scanner(System.in);
 
                 System.out.print("Shall continue?(true/false): ");

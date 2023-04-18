@@ -12,6 +12,7 @@ class Skynet {
     public Move getSkynetMove() {
         return skynetMove;
     }
+
     private void setSkynetMove() {
         Move[] moves = Move.values();
         Random random = new Random();

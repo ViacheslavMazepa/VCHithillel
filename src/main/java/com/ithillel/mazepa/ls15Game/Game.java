@@ -1,6 +1,5 @@
 package com.ithillel.mazepa.ls15Game;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 class Game {
@@ -15,7 +14,6 @@ class Game {
     }
 
     public void startGame() {
-
         while (willContinue) {
             try {
                 //object is created in a loop to update the value each iteration
@@ -25,11 +23,15 @@ class Game {
                 if (user.getUserMove().ordinal() == terminator.getSkynetMove().ordinal()) {
                     System.out.println("Draw");
                     System.out.println("Score: " + usersWins + " : " + terminatorsWins);
-                } else if (user.getUserMove() == Move.ROCK && terminator.getSkynetMove() == Move.SCISSORS || user.getUserMove() == Move.SCISSORS && terminator.getSkynetMove() == Move.PAPER || user.getUserMove() == Move.PAPER && terminator.getSkynetMove() == Move.ROCK) {
+                } else if (user.getUserMove() == Move.ROCK && terminator.getSkynetMove() == Move.SCISSORS
+                        || user.getUserMove() == Move.SCISSORS && terminator.getSkynetMove() == Move.PAPER
+                        || user.getUserMove() == Move.PAPER && terminator.getSkynetMove() == Move.ROCK) {
                     ++usersWins;
                     System.out.println("Humanity won the battle but not the war!");
                     System.out.println("Score: " + usersWins + " x " + terminatorsWins);
-                } else if (terminator.getSkynetMove() == Move.ROCK && user.getUserMove() == Move.SCISSORS || terminator.getSkynetMove() == Move.SCISSORS && user.getUserMove() == Move.PAPER || terminator.getSkynetMove() == Move.PAPER && user.getUserMove() == Move.ROCK) {
+                } else if (terminator.getSkynetMove() == Move.ROCK && user.getUserMove() == Move.SCISSORS
+                        || terminator.getSkynetMove() == Move.SCISSORS && user.getUserMove() == Move.PAPER
+                        || terminator.getSkynetMove() == Move.PAPER && user.getUserMove() == Move.ROCK) {
                     ++terminatorsWins;
                     System.out.println("Skynet is one step closer to victory!");
                     System.out.println("Score: " + usersWins + " x " + terminatorsWins);
